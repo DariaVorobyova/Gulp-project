@@ -1,4 +1,11 @@
 .test {
-  background-color: azure; }
-  .test:hover {
-    background-color: #000; }
+  background-color: azure;
+}
+
+.test:hover {
+  background-color: #000;
+}
+
+.box {
+  margin: 0;
+}
