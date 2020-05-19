@@ -8,7 +8,7 @@ let gulp = require('gulp'),
 
 gulp.task('scss', function(){
     return gulp.src('app/scss/**/*.scss')
-    .pipe(sass({outputStyle:"compressed"}))
+    .pipe(sass({outputStyle:"expanded"}))
     .pipe(rename({suffix:'.min'}))
     .pipe(gulp.dest('app/css'))
     .pipe(browserSync.reload({stream:true}))
